@@ -11,5 +11,4 @@ will provide a list of available accommodations for that location 🗺️.
 - 🛌 Hostels
 - 🏠 Airbnb’s.
 
-![img1](https://user-images.githubusercontent.com/56543762/137035772-e2e2c635-1af7-40d6-8646-833f3b409b84.png)
 

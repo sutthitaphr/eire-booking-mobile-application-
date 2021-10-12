@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eirebookingmobileapplication.MenuFragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/menu_home" />
+
+    <activity
+        android:id="@+id/nav_accom"
+        android:name="com.example.eirebookingmobileapplication.AccommodationsMainActivity"
+        android:label="Accommodations"
+        tools:layout="@layout/activity_accommodations_main"/>
+
+    <activity
+        android:id="@+id/nav_login"
+        android:name="com.example.eirebookingmobileapplication.LoginPages.LoginMainActivity"
+        android:label="Login/Register"
+        tools:layout="@layout/menu_login"/>
+
+    <activity
+        android:id="@+id/nav_notification"
+        android:name="com.example.eirebookingmobileapplication.MenuFragments.NotificationsActivity"
+        android:label="Notifications"
+        tools:layout="@layout/menu_notifications" />
+
+    <activity
+        android:id="@+id/nav_booking_details"
+        android:name="com.example.eirebookingmobileapplication.MenuFragments.BookingDetailsActivity"
+        android:label="Booking Details"
+        tools:layout="@layout/menu_booking_details" />
+
+    <activity
+        android:id="@+id/nav_survey"
+        android:name="com.example.eirebookingmobileapplication.SurveyPages.SurveyIntroMainActivity"
+        android:label="Survey"
+        tools:layout="@layout/menu_survey_intro" />
+
+    <activity
+        android:id="@+id/nav_coupon"
+        android:name="com.example.eirebookingmobileapplication.MenuFragments.CouponActivity"
+        android:label="My Coupon"
+        tools:layout="@layout/menu_coupon" />
+
+    <activity
+        android:id="@+id/nav_contact"
+        android:name="com.example.eirebookingmobileapplication.MenuFragments.ContactActivity"
+        android:label="Contact"
+        tools:layout="@layout/menu_contact" />
+
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="com.example.eirebookingmobileapplication.SettingsPages.SettingsMainActivity"
+        android:label="Settings"
+        tools:layout="@layout/menu_settings_main" />
+
+</navigation>

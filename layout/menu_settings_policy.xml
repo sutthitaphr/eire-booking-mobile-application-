@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsPages.PrivacyPolicyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="99dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="117dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/ic_settings_policy"
+                android:contentDescription="@string/privacy_policy" />
+
+            <TextView
+                android:id="@+id/policy_para1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/policy_para_1"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/policy_para1.1"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/policy_para_1.1"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:text="@string/user_rights"
+                android:textStyle="bold"
+                android:textColor="#009688"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/policy_para2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_2"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/policy_para3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_3"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/policy_para4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_4"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:text="@string/our_services"
+                android:textStyle="bold"
+                android:textColor="#009688"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/policy_para5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_5"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/policy_para6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_6"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/policy_para7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_7"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/policy_para8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_8"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/policy_para9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/policy_para_9"
+                android:textColor="#3E3D3D"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

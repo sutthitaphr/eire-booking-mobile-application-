@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eirebookingmobileapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_eire_booking"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_eire_booking"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EireBookingMobileApplication">
+
+        <activity
+            android:name=".MenuMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.EireBookingMobileApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AccommodationsMainActivity"
+            android:parentActivityName=".MenuMainActivity"/>
+        <activity
+            android:name=".PaymentsPages.PaymentActivity"
+            android:parentActivityName=".AccommodationsMainActivity"/>
+        <activity
+            android:name=".PaymentsPages.SuccessfulPaymentActivity"
+            android:parentActivityName=".MenuMainActivity"/>
+
+        <activity
+            android:name=".MenuFragments.BookingDetailsActivity"
+            android:parentActivityName=".MenuMainActivity" />
+        <activity
+            android:name=".MenuFragments.ContactActivity"
+            android:parentActivityName=".MenuMainActivity" />
+        <activity
+            android:name=".MenuFragments.NotificationsActivity"
+            android:parentActivityName=".MenuMainActivity" />
+        <activity
+            android:name=".MenuFragments.NotificationMessageActivity"
+            android:parentActivityName=".MenuMainActivity" />
+        <activity
+            android:name=".MenuFragments.CouponActivity"
+            android:parentActivityName=".SettingsPages.SettingsMainActivity" />
+
+        <activity
+            android:name=".LoginPages.LoginMainActivity"
+            android:parentActivityName=".MenuMainActivity" />
+        <activity
+            android:name=".LoginPages.LoginFormActivity"
+            android:parentActivityName=".LoginPages.LoginMainActivity" />
+        <activity
+            android:name=".LoginPages.RegisterFormActivity"
+            android:parentActivityName=".LoginPages.LoginMainActivity" />
+
+        <activity
+            android:name=".SurveyPages.SurveyFormActivity"
+            android:parentActivityName=".SurveyPages.SurveyIntroMainActivity" />
+        <activity
+            android:name=".SurveyPages.SurveyIntroMainActivity"
+            android:parentActivityName=".MenuMainActivity" />
+        <activity
+            android:name=".SurveyPages.SurveyMessageActivity"
+            android:parentActivityName=".MenuMainActivity" />
+
+        <activity
+            android:name=".SettingsPages.SettingsMainActivity"
+            android:parentActivityName=".MenuMainActivity"/>
+        <activity
+            android:name=".SettingsPages.AboutUsActivity"
+            android:parentActivityName=".SettingsPages.SettingsMainActivity" />
+        <activity
+            android:name=".SettingsPages.AccountDetailsActivity"
+            android:parentActivityName=".SettingsPages.SettingsMainActivity" />
+        <activity
+            android:name=".SettingsPages.PrivacyPolicyActivity"
+            android:parentActivityName=".SettingsPages.SettingsMainActivity" />
+        <activity
+            android:name=".SettingsPages.BookingHistoryActivity"
+            android:parentActivityName=".SettingsPages.SettingsMainActivity" />
+
+        <activity
+            android:name=".FeedPages.FeedMainActivity"
+            android:parentActivityName=".MenuMainActivity" />
+    </application>
+
+</manifest>

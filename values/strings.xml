@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">ÉIRE Booking</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ÉIRE Booking</string>
+    <string name="nav_header_email">eirebooking@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_sign_in_short">Login</string>
+
+    <string-array name="counties">
+        <item>Carlow</item>
+        <item>Cavan</item>
+        <item>Clare</item>
+        <item>Cork</item>
+        <item>Donegal</item>
+        <item>Dublin</item>
+        <item>Galway</item>
+        <item>Kerry</item>
+        <item>Kildare</item>
+        <item>Kilkenny</item>
+        <item>Laois</item>
+        <item>Leitrim</item>
+        <item>Limerick</item>
+        <item>Longford</item>
+        <item>Louth</item>
+        <item>Mayo</item>
+        <item>Meath</item>
+        <item>Monaghan</item>
+        <item>Offaly</item>
+        <item>Roscommon</item>
+        <item>Sligo</item>
+        <item>Tipperary</item>
+        <item>Waterford</item>
+        <item>Westmeath</item>
+        <item>Wexford</item>
+        <item>Wicklow"</item>
+    </string-array>
+
+    <string name="booking_details">Booking Details</string>
+    <string name="login_register">Login/Register</string>
+    <string name="survey">Survey</string>
+    <string name="contact">Contact</string>
+    <string name="settings">Settings</string>
+
+    <string name="item_login_register">Login/Register</string>
+    <string name="item_booking_details">Booking Details</string>
+    <string name="item_survey">Survey</string>
+    <string name="item_contact">Contact</string>
+    <string name="item_settings">Settings</string>
+
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="login_logo">Login Logo</string>
+
+    <string name="item_home">Home</string>
+    <string name="item_feeds">Feeds Post</string>
+    <string name="item_notifications">Notifications</string>
+
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="feeds">Feeds</string>
+    <string name="welcome_to_eire_booking">Welcome to EIRE Booking...</string>
+    <string name="enter">Enter</string>
+    <string name="accommodation_name">Accommodation Name:</string>
+
+    <string name="to">To:</string>
+    <string name="date">Date</string>
+    <string name="calendar">Calendar</string>
+    <string name="_00_00_0000">00/00/0000</string>
+    <string name="from">From:</string>
+
+    <string name="customer_details">Customer Details</string>
+    <string name="customer_name">Customer Name:</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="email">Email</string>
+    <string name="total_price">Total Price:</string>
+    <string name="message">*Message:</string>
+    <string name="cancel_booking">Cancel booking can only be done via email/contact</string>
+
+    <string name="account_details">Account Details</string>
+    <string name="empty">Empty</string>
+
+    <string name="submit">Submit</string>
+    <string name="how_to_contact_us">How to Contact Us:</string>
+    <string name="your_query">Your Query:</string>
+    <string name="text_email">Email:</string>
+    <string name="ask_us_a_question">Ask Us A Question:</string>
+    <string name="name">Name:</string>
+
+    <string name="mon_sat_8_00am_6pm">Mon - Sat: 8:00am-6pm</string>
+    <string name="opening_hours">Opening Hours:</string>
+    <string name="email_address">Email Address:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="_1800_211438">1800-211438</string>
+    <string name="eirebooking_gmail_com">eirebooking@gmail.com</string>
+
+    <string name="home_wallpaper">Home Wallpaper</string>
+
+    <string name="about_us_text1">
+        ÉIRE Booking is a hotel booking system for Ireland
+        designed in 2021. The app was created with the intention
+        of making it easy for travellers to find and explore Ireland.
+    </string>
+
+    <string name="about_us_text2">
+        The client of this application is a well-known organisation
+        in the tourism industry called Voyage Forest Ltd.
+    </string>
+
+    <string name="about_us_text3">
+        Our app will make life more efficient; in addition to providing
+        the best accommodation options (Hotel, Airbnb, Hostel)
+        in the world.The app is built to be as convenient and engaging
+        as possible, keeping our users interested by ensuring continuous
+        improvement environment with only the details they need to make
+        the best decision.
+    </string>
+
+    <string name="surveyIntroTxt1">
+        We would like to ask you a few questions and we promise
+        that it would not take long. The results of this survey
+        will teach us insights in how to provide you with a better service.
+    </string>
+
+    <string name="surveyIntroTxt2">
+        At the end of this survey you will receive a 10% discount coupon
+        to use in your next booking. When you are ready, just press start
+        and you will be taken to the questions.
+    </string>
+
+    <string name="about_us">About Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="name_input">Name:</string>
+    <string name="eire_logo">Eire Logo</string>
+    <string name="item_about_us">About Us</string>
+    <string name="item_other">Other</string>
+    <string name="survey_welcome">Welcome</string>
+    <string name="login_form">Login Form</string>
+
+    <string name="select_a_county">Select a county</string>
+
+    <string name="start">START</string>
+
+    <string name="survey_logo">Survey Logo</string>
+    <string name="question_5">And last but not least. What is your favorite city to stay in Ireland?</string>
+    <string name="survey_no">No</string>
+    <string name="survey_yes">Yes</string>
+    <string name="question_4">How likely are you to recommend us to a friend or colleague on a scale of 0-10?</string>
+    <string name="friend_or_family">Friend or Family</string>
+    <string name="google_adds">Google adds</string>
+    <string name="survey_other">Other</string>
+    <string name="social_media">Social_Media</string>
+    <string name="how_old_are_you">How old are you?</string>
+    <string name="how_did_you_found_us">How did you found us?</string>
+    <string name="survey_enjoy">Enjoy!</string>
+
+    <string name="surveyMessage">
+        <html>
+            <head></head>
+            <body style="text-align:justify;">
+                The fact that you are reading this message indicates that you have completed our questionnaire, and that we owe you a debt of thanks.
+            </body>
+        </html>
+    </string>
+    <string name="surveyMessage2">
+        <html>
+            <head></head>
+            <body style="text-align:justify;">
+                Thank you for taking the time to complete this survey, we truly value the information you have provided. You should now have received an email with your discount coupon.
+            </body>
+        </html>
+    </string>
+    <string name="survey_message_icon">Survey Message Icon</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_account">Login</string>
+    <string name="register_icon">Register Icon</string>
+    <string name="register_button">Register</string>
+    <string name="create_password">Create Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="account_details_title">Account Details:</string>
+    <string name="username">Username:</string>
+    <string name="account_details_email">Email:</string>
+    <string name="deactivate">DEACTIVATE</string>
+    <string name="my_account">My Account</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="item_log_out">Log Out</string>
+    <string name="item_search">Search</string>
+    <string name="my_coupon">My Coupon</string>
+    <string name="noti_logo">noti_logo</string>
+
+    <string name="policy_para_1">
+        ÉIRE Bookings’ privacy policy provides information about the processing of personal data when using our services.
+        Any information that can be used to identify the user is considered personal data.We place a high value on the
+        security of your personal information.
+        Please contact:
+    </string>
+    <string name="policy_para_1.1">
+         <b><i>eirebooking@gmail.com</i></b> if you have any questions or would like more details about our policy.
+    </string>
+    <string name="policy_para_2">
+        1. With respect to your personal details, you have the right of access, data, clarification, deletion, portability,
+        and objection to the processing of your data.
+        You also have the right to rescind your consent if the processing is dependent on it.
+    </string>
+    <string name="policy_para_3">
+        2. Right to file a complaint with a supervisory authority and the right to lodge a complaint regarding our handling
+        of your personal data with a specific data security supervisory authority.
+    </string>
+    <string name="policy_para_4">
+        3. We process the following forms of personal data during our services: Names, addresses, phone numbers, and email
+        addresses are sources of personal identifying details. Personal details including age, sex, and date of birth.
+        Data made available by your browser or device. Financial identification data are credit or debit card numbers.
+    </string>
+    <string name="policy_para_5">
+        1. During the use of our server, we may collect your information such as name, phone number, email address, and credit card information.
+    </string>
+    <string name="policy_para_6">
+        2. We may use your details to provide the services that you requested to keep the application up to date.
+    </string>
+    <string name="policy_para_7">
+        3. We may share your information with suppliers, service providers, and affiliates.
+    </string>
+    <string name="policy_para_8">
+        4. To protect your information, we use appropriate security measures and allow our service providers to do the same.
+    </string>
+    <string name="policy_para_9">
+        5. Privacy Policy Updates: Any material changes will be reported to you by publishing a revised version of this
+        Privacy Policy and taking other measures as necessary.
+    </string>
+
+    <string name="user_rights">User Rights</string>
+    <string name="our_services">Our Services</string>
+    <string name="coupon_discount">Coupon</string>
+    <string name="expired">Expired:</string>
+    <string name="code">CODE:</string>
+    <string name="_28_05_2021">28/05/2021</string>
+    <string name="eba10">EBA10</string>
+
+    <string name="tab_1">Hotel</string>
+    <string name="tab_2">AirBnB</string>
+    <string name="tab_3">Hostel</string>
+    <string name="accommodations">Accommodations</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="booking_history">Booking History</string>
+    <string name="check_my_coupon">Check My Coupon</string>
+    <string name="title_activity_accommodations_main">AccommodationsMainActivity</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="empty_bookings">Empty Bookings</string>
+
+    <string name="book_now">Book Now</string>
+    <string name="carlow_ireland">Carlow, Ireland</string>
+    <string name="cuan_cottage">Cuan Cottage</string>
+    <string name="_1_queen_bed_1_double_bed">1 queen bed, 1 double bed</string>
+    <string name="_4_81">4.81</string>
+    <string name="rating">Rating:</string>
+    <string name="airbnb_image">Airbnb Image</string>
+    <string name="star">Star</string>
+
+    <string name="trendy_spot_in_dublin_2">Trendy Spot in Dublin 2</string>
+    <string name="dublin_ireland">Dublin, Ireland</string>
+    <string name="_1_small_double_bed">1 small double bed</string>
+    <string name="_4_91">4.91</string>
+
+    <string name="pairc_na_saileac_100_2">Pairc na Saileac - 100-2</string>
+    <string name="_4_80">4.80</string>
+    <string name="kildare_ireland">Kildare, Ireland</string>
+
+    <string name="the_granny_flat">The Granny Flat</string>
+    <string name="_4_88">4.88</string>
+
+    <string name="stay_galway_city_centre">Stay @Galway City Centre</string>
+    <string name="galway_ireland">Galway, Ireland</string>
+    <string name="_1_queen_bed">1 queen bed</string>
+    <string name="_4_78">4.78</string>
+
+    <string name="luxury_apartment">Luxury apartment</string>
+    <string name="limerick_ireland">Limerick, Ireland</string>
+    <string name="_1_double_bed_1_single_bed">1 double bed, 1 single bed</string>
+    <string name="_4_83">4.83</string>
+    <string name="mullagbeag_lodge">Mullagbeag Lodge</string>
+
+    <string name="_1_king_bed">1 king bed</string>
+    <string name="louth_ireland">Louth, Ireland</string>
+    <string name="ferryhill_cottage">Ferryhill Cottage</string>
+    <string name="_4_94">4.94</string>
+    <string name="cosy_country_retreat">Cosy Country Retreat</string>
+    <string name="offaly_ireland">Offaly, Ireland</string>
+    <string name="hostel_image">Hostel Image</string>
+    <string name="isaac_hostel">Isaac Hostel</string>
+    <string name="_4_10">4.10</string>
+    <string name="_1_double_bed">1 double bed</string>
+    <string name="kerry_ireland">Kerry, Ireland</string>
+    <string name="the_hideout_hostel">The Hideout Hostel</string>
+    <string name="_5_0">5.0</string>
+    <string name="_4_bed_cabin">4-Bed Cabin</string>
+    <string name="wicklow_ireland">Wicklow, Ireland</string>
+    <string name="the_elbowroom_escape">The Elbowroom Escape</string>
+    <string name="_4_21">4.21</string>
+    <string name="bed_in_8_bed_mixed_dormitory">Bed in 8-Bed Mixed Dormitory</string>
+    <string name="generator_hostel">Generator Hostel</string>
+    <string name="_4_38">4.38</string>
+    <string name="bed_in_6_bed_mixed_dormitory">Bed in 6-Bed Mixed Dormitory</string>
+    <string name="the_nest_boutique_hostel">The Nest Boutique Hostel</string>
+    <string name="_4_0">4.0</string>
+    <string name="bed_in_12_bed_mixed_dormitory">Bed in 12-Bed Mixed Dormitory</string>
+    <string name="jacobs_inn">Jacobs Inn</string>
+    <string name="_4_51">4.51</string>
+    <string name="galway_city_hostel_and_bar">Galway City Hostel and Bar</string>
+    <string name="_4_95">4.95</string>
+    <string name="private_5_bed_dormitory">Private 5-Bed Dormitory</string>
+    <string name="ballyhoura_luxury_hostel">Ballyhoura Luxury Hostel</string>
+    <string name="the_black_sheep">The Black Sheep</string>
+    <string name="_3_50">3.50</string>
+    <string name="bed_in_16_bed_mixed_dormitory">Bed in 16-Bed Mixed Dormitory</string>
+    <string name="abrahams_hostel">Abrahams Hostel</string>
+    <string name="_4_75">4.75</string>
+    <string name="_1_single_bed_1_twin_room">1 Single Bed, 1 Twin Room</string>
+    <string name="price">Price:</string>
+    <string name="enter_your_first_name">Enter your first name</string>
+    <string name="enter_you_surname">Enter you surname</string>
+    <string name="_0000_0000_0000_0000">0000-0000-0000-0000</string>
+    <string name="_000">000</string>
+    <string name="pay">PAY</string>
+    <string name="card">Card</string>
+    <string name="cash">Cash</string>
+    <string name="cvv">CVV:</string>
+    <string name="expiry">Expiry:</string>
+    <string name="card_no">Card No:</string>
+    <string name="card_details">Card Details:</string>
+    <string name="surname">Surname:</string>
+    <string name="first_name">First Name:</string>
+    <string name="_360">€360</string>
+    <string name="select_payment_method">Select Payment Method:</string>
+    <string name="price_summary">Price Summary:</string>
+    <string name="congratulations">Congratulations...</string>
+    <string name="on_your_successful_booking_with">On Your Successful Booking with</string>
+    <string name="booking_message1">Please find in the account section of the app all the details regarding your recent booking made with ÉIRE Booking.</string>
+    <string name="booking_message2">Details including: Booking Reference, Selected Accommodation, Dates of Booking and Price.</string>
+    <string name="book_again">Book Again</string>
+    <string name="post_image">Post Image</string>
+    <string name="our_kilkenny_adventure">Our Kilkenny Adventure</string>
+    <string name="giants_causeway">Giants Causeway</string>
+    <string name="the_north_of_ireland_is_beautiful">The North of Ireland is Beautiful</string>
+    <string name="up_north">Up North!</string>
+    <string name="dingle_kerry">Dingle Kerry</string>
+    <string name="first_time_visiting_dingle_and_would_definetly_go_back">First time visiting Dingle and would definetly go back!</string>
+    <string name="visit_dingle">Visit Dingle</string>
+    <string name="galway">Galway</string>
+    <string name="spent_the_weekend_in_dublin_and_visited_the_guinness_storehouse_great_fun">Spent the weekend in Dublin and visited the Guinness Storehouse , great fun</string>
+    <string name="weekend_in_dublin">Weekend in Dublin</string>
+    <string name="galway_city">Galway City</string>
+    <string name="galway_city_is_always_alive_night_day">Galway City is always alive! Night Day</string>
+    <string name="stay_in_galway">Stay In Galway</string>
+    <string name="suites_and_twin_rooms">Suites and Twin Rooms</string>
+
+</resources>
